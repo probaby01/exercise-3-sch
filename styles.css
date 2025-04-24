@@ -53,7 +53,7 @@ span{
     position: absolute;
     left: 0px;/* Adjust this value to move the tag left ,negavtive to go outside */
     top: 50px;/* Adjust this value to move the tag up  */
-    left: 770px;/* Adjust this value to move the tag left */
+    left: 430px;/* Adjust this value to move the tag left */
       z-index: 1; /* Ensure the tag is on top of the card */
 }
 img {
