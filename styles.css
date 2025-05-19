@@ -55,11 +55,9 @@ span{
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-    position: absolute;
-    left: 0px;/* Adjust this value to move the tag left ,negavtive to go outside */
-    top: 50px;/* Adjust this value to move the tag up  */
-    left: 770px;/* Adjust this value to move the tag left */
-      z-index: 1; /* Ensure the tag is on top of the card */
+    position:relative;
+    right:130px;
+    top:10px;
 }
 img {
   position:relative;
@@ -77,38 +75,9 @@ h2{
 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
-    font-weight: semibold;
-    line-height: 1.5;
-    text-align: left
-    margin-bottom: 20px;
+    width: 320px;
+    position: relative;
+    bottom:20px;
+  
+
 }
-/* Default styles (mobile-first approach) */
-img {
-    max-width: 100%; /* Ensure images are responsive */
-    height: auto;
-    display: block;
-  }
-  
-  h1 {
-    font-size: 1.5rem; /* 24px */
-  }
-  
-  /* Tablet styles */
-  @media (min-width: 769px) {
-    h1 {
-      font-size: 2rem; /* 32px */
-    }
-    .container {
-      width: 85%;
-    }
-  }
-  
-  /* Desktop styles */
-  @media (min-width: 1025px) {
-    h1 {
-      font-size: 2.5rem; /* 40px */
-    }
-    .container {
-      width: 80%;
-    }
-  }
